@@ -1,5 +1,9 @@
 /* style.css */
 
+body {
+    /* display: flex; */
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -16,16 +20,24 @@ a {
 
 .first-box {
     display: flex;
+    color: #f9faf8;
+    background-color: #1c2b42;
+
 }
 
 .left-group {
     padding: 32px;
     font-size: 48px;
     font-weight: bolder;
-    color: #f9faf8;
-    background-color: #1c2b42;
+    /* color: #f9faf8;
+    background-color: #1c2b42; */
     display: flex;
     flex-wrap: wrap;
+}
+
+.hero-pic {
+    padding: 1em;
+    background-color: azure;
 }
 
 .secondary-text {
@@ -42,13 +54,19 @@ a {
 .info-header {
     font-size: 36px;
     font-weight: bolder;
+    /* display: flex; */
 }
 
 .information {
     display: flex;
     color: #1f2937;
-    font-size: 36px;
+    font-size: 12px;
     font-weight: bolder;
+    flex-direction: column;
+}
+
+.info-container {
+    display: flex;
 }
 
 .quote {
@@ -65,11 +83,19 @@ a {
 .call-to-action {
     display: flex;
     /* flex-direction: column; */
+    background-color: #3882f6;
+    color: white;
 }
 
+
+
 .SignUp {
+    color: white;
     background-color: #3882f6;
-    color: #f9faf8;
+    border: white;
+    border-radius: 12px;
+    border: 2px solid white;
+
 }
 
 .footer {
