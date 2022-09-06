@@ -1,1 +1,47 @@
 /* style.css */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.first-box {
+    display: flex;
+}
+
+.left-group {
+    padding: 32px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.second-box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.information {
+    display: flex;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.call-to-action {
+    display: flex;
+    /* flex-direction: column; */
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+}
