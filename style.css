@@ -3,10 +3,15 @@
 .header {
     display: flex;
     justify-content: space-between;
+    color: #f9faf8;
+    background-color: #1c2b42;
+    font-size: 24px;
 }
 
 a {
     text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .first-box {
@@ -15,8 +20,17 @@ a {
 
 .left-group {
     padding: 32px;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+    background-color: #1c2b42;
     display: flex;
     flex-wrap: wrap;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .second-box {
@@ -25,11 +39,23 @@ a {
     flex-direction: column;
 }
 
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
 .information {
     display: flex;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
 }
 
 .quote {
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -41,7 +67,14 @@ a {
     /* flex-direction: column; */
 }
 
+.SignUp {
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
 .footer {
     display: flex;
     align-items: center;
+    color: #f9faf8;
+    background-color: #1c2b42;
 }
