@@ -60,7 +60,11 @@ a {
 .info-header {
     font-size: 36px;
     font-weight: bolder;
-    /* display: flex; */
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
 }
 
 .information {
@@ -69,15 +73,22 @@ a {
     font-size: 12px;
     font-weight: bolder;
     flex-direction: column;
-}
-
-.info-container {
-    display: flex;
+    width: 100px;
 }
 
 .info-box {
-    border-width: 2px;
+    border: 2px solid blue;
+    border-radius: 1em;
     border-color: #3882f6;
+    width: 100px;
+    height: 100px;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.subtext {
+    flex-wrap: wrap;
+    width: 100px;
 }
 
 .quote {
