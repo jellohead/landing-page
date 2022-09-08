@@ -55,18 +55,29 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 2em;
+    /* padding: 2em; */
 }
 
 .info-header {
     font-size: 36px;
     font-weight: bolder;
-    padding-bottom: 1em;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
 }
 
 .info-container {
     display: flex;
+    flex-direction: column;
     /* justify-content: space-between; */
+}
+
+.four-boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 2em;
 }
 
 .information {
@@ -104,15 +115,17 @@ a {
     /* justify-content: center; */
     /* flex-wrap: wrap; */
     flex-direction: column;
+    padding: 2em;
 }
 
 .words {
     /* justify-content: center; */
     flex-wrap: wrap;
+    align-self: flex-start;
 }
 
 .author {
-    /* justify-content: flex-end; */
+    align-self: flex-end;
 }
 
 .call-to-action {
