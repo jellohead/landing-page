@@ -55,16 +55,18 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
+    padding: 2em;
 }
 
 .info-header {
     font-size: 36px;
     font-weight: bolder;
+    padding-bottom: 1em;
 }
 
 .info-container {
     display: flex;
-    justify-content: center;
+    /* justify-content: space-between; */
 }
 
 .information {
@@ -73,7 +75,7 @@ a {
     font-size: 12px;
     font-weight: bolder;
     flex-direction: column;
-    width: 100px;
+    /* width: 100px; */
 }
 
 .info-box {
@@ -89,6 +91,8 @@ a {
 .subtext {
     flex-wrap: wrap;
     width: 100px;
+    margin-left: 2em;
+    margin-right: 2em;
 }
 
 .quote {
@@ -97,9 +101,18 @@ a {
     font-size: 24px;
     font-style: italic;
     display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
     flex-direction: column;
+}
+
+.words {
+    /* justify-content: center; */
+    flex-wrap: wrap;
+}
+
+.author {
+    /* justify-content: flex-end; */
 }
 
 .call-to-action {
